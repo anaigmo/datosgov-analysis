@@ -626,11 +626,6 @@
         <http://example.org/completeness-measurement-e05070101-informe-anual-del-sistema-nacional-de-salud/resource/4876c0f8-ae98-4b82-a59b-2f4dcd76b2c7>,
         <http://example.org/format-interop-measurement-e05070101-informe-anual-del-sistema-nacional-de-salud/resource/4876c0f8-ae98-4b82-a59b-2f4dcd76b2c7> .
 
-:datasetCompletenessMetric a dqv:Metric ;
-    skos:definition "Ratio between the metadata properties observed in the dataset and the number of properties expected to be represented (dcat:keyword and dcat:theme)." ;
-    dqv:expectedDataType xsd:double ;
-    dqv:inDimension ldqd:completeness .
-
 :accessURLAvailabilityMetric a dqv:Metric ;
     skos:definition "It checks if dcat:accessURL value provided is available." ;
     dqv:expectedDataType xsd:boolean ;
