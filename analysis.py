@@ -17,7 +17,7 @@ def retrieve_datasets():
     url = 'https://datos.gob.es/virtuoso/sparql'
     query = """
         PREFIX dct: <http://purl.org/dc/terms/>
-        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>gi
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX dcat: <http://www.w3.org/ns/dcat#>
         PREFIX foaf: <http://xmlns.com/foaf/0.1/>
         
@@ -40,9 +40,8 @@ def retrieve_datasets():
     }
 
     res = requests.get(url, params={"query": query}, verify=False, headers=headers)
-
     graph = Graph()
-    graph.parse(data=res.text, format="turtle")
+    graph.parse(data=res.text, format="ttl")
 
     return graph
 
