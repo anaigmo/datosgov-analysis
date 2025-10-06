@@ -245,4 +245,4 @@ if __name__ == "__main__":
     print_status("Uploading to Fuseki")
     load_to_fuseki(dqv_report_file)
 
-    print_status("All done, find the report in the folder 'output/'")
+    print_status("All done! You can find the report available in http://localhost:3030")
