@@ -1,0 +1,549 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://www.w3.org/ns/dcat#> .
+@prefix ns1: <http://datos.gob.es/> .
+@prefix ns10: <https://datos.gob.es/catalogo/e05070101-banco-de-datos-del-ministerio-de-sanidad-servicios-sociales-e-igualdad/resource/dfa3dc97-745a-4612-9c8f-80e214e7462e/> .
+@prefix ns12: <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/294edf89-a0d6-495e-be45-353385da6052/> .
+@prefix ns13: <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/4b0e9536-dcc4-4005-b718-49414dc4fccc/> .
+@prefix ns14: <https://datos.gob.es/catalogo/e05070101-catalogo-de-la-biblioteca-central-del-ministerio-de-sanidad-servicios-sociales-e-igualdad/resource/> .
+@prefix ns15: <https://datos.gob.es/catalogo/e05070101-catalogo-de-la-biblioteca-central-del-ministerio-de-sanidad-servicios-sociales-e-igualdad/resource/eed148e8-52fb-4cc6-9686-823410986227/> .
+@prefix ns16: <https://datos.gob.es/catalogo/e05070101-catalogo-de-publicaciones-del-ministerio-de-sanidad-consumo-bienestar-social/resource/> .
+@prefix ns17: <https://datos.gob.es/catalogo/e05070101-catalogo-de-publicaciones-del-ministerio-de-sanidad-consumo-bienestar-social/resource/ac2349c5-f42d-40b1-a29f-a5790864ad3f/> .
+@prefix ns18: <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/3fd59a76-276d-44a4-8ef2-deabbfc64be0/> .
+@prefix ns19: <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/4e37b416-a570-4138-adef-c3a56dd5421a/> .
+@prefix ns2: <https://datos.gob.es/catalogo/> .
+@prefix ns20: <https://datos.gob.es/catalogo/e05070101-consejo-interterritorial-del-sistema-nacional-de-salud-ordenes-del-dia/resource/> .
+@prefix ns21: <https://datos.gob.es/catalogo/e05070101-consejo-interterritorial-del-sistema-nacional-de-salud-ordenes-del-dia/resource/e67566a0-67d4-4ce7-b084-77e1fac2829c/> .
+@prefix ns22: <https://datos.gob.es/catalogo/e05070101-de-vacunacion-covid-19-en-espana/resource/> .
+@prefix ns23: <https://datos.gob.es/catalogo/e05070101-de-vacunacion-covid-19-en-espana/resource/fc86ba02-05ce-4dc3-9f25-ccdd3a306747/> .
+@prefix ns24: <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/0a1008c4-d88b-4cb4-82b4-f0fae96ed44b/> .
+@prefix ns25: <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/130e7f28-4acf-4260-aa25-ca94a66d97aa/> .
+@prefix ns26: <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/3268aad0-5c84-4b47-8bb1-65be44971455/> .
+@prefix ns27: <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/5893e476-84dc-4723-be00-ff455a4ebfed/> .
+@prefix ns28: <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/> .
+@prefix ns29: <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/daac0e06-2e78-49a6-a2b4-dfbdc0402ca1/> .
+@prefix ns30: <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/e4c99afe-3ab4-472d-b772-5e85c8924c7a/> .
+@prefix ns31: <https://datos.gob.es/catalogo/e05070101-farmacia-nomenclator-de-facturacion/resource/6d88e46d-350b-419d-8e53-d58c48b00e1f/> .
+@prefix ns32: <https://datos.gob.es/catalogo/e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas/resource/570c8a23-1d49-4869-a9fd-ae99d63ebf5a/> .
+@prefix ns33: <https://datos.gob.es/catalogo/e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas/resource/> .
+@prefix ns34: <https://datos.gob.es/catalogo/e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas/resource/b6ff1940-da3d-4f49-8043-fc95db724e3a/> .
+@prefix ns35: <https://datos.gob.es/catalogo/e05070101-informativas/resource/24ef1a2f-fd85-40fd-868d-e3aee4608e90/> .
+@prefix ns36: <https://datos.gob.es/catalogo/e05070101-informe-anual-del-sistema-nacional-de-salud/resource/4876c0f8-ae98-4b82-a59b-2f4dcd76b2c7/> .
+@prefix ns37: <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/> .
+@prefix ns38: <http://datos.gob.es/kos/sector-publico/sector/> .
+@prefix ns39: <http://publications.europa.eu/resource/authority/language/> .
+@prefix ns40: <http://datos.gob.es/recurso/sector-publico/org/Organismo/> .
+@prefix ns42: <https://datos.gob.es/catalogo/e05070101-banco-de-datos-del-ministerio-de-sanidad-servicios-sociales-e-igualdad/> .
+@prefix ns43: <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/> .
+@prefix ns44: <https://datos.gob.es/catalogo/e05070101-catalogo-de-la-biblioteca-central-del-ministerio-de-sanidad-servicios-sociales-e-igualdad/> .
+@prefix ns45: <https://datos.gob.es/catalogo/e05070101-catalogo-de-publicaciones-del-ministerio-de-sanidad-consumo-bienestar-social/> .
+@prefix ns46: <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/> .
+@prefix ns47: <https://datos.gob.es/catalogo/e05070101-consejo-interterritorial-del-sistema-nacional-de-salud-ordenes-del-dia/> .
+@prefix ns48: <https://datos.gob.es/catalogo/e05070101-de-vacunacion-covid-19-en-espana/> .
+@prefix ns49: <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/> .
+@prefix ns5: <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/resource/5387c3c7-feb8-4511-a15b-220e718286a1/> .
+@prefix ns50: <https://datos.gob.es/catalogo/e05070101-farmacia-nomenclator-de-facturacion/> .
+@prefix ns51: <https://datos.gob.es/catalogo/e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas/> .
+@prefix ns52: <https://datos.gob.es/catalogo/e05070101-informativas/> .
+@prefix ns53: <https://datos.gob.es/catalogo/e05070101-informe-anual-del-sistema-nacional-de-salud/> .
+@prefix ns6: <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/resource/914ee207-6c81-48a5-848e-e8db6acd284a/> .
+@prefix ns7: <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/resource/> .
+@prefix ns8: <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/resource/f096fa7b-3a6f-4597-a81f-b99c7dd96d23/> .
+@prefix ns9: <https://datos.gob.es/catalogo/e05070101-banco-de-datos-del-ministerio-de-sanidad-servicios-sociales-e-igualdad/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:subcatalog ns0:dataset ns2:e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns,
+        ns2:e05070101-banco-de-datos-del-ministerio-de-sanidad-servicios-sociales-e-igualdad,
+        ns2:e05070101-catalogo-de-centros-de-atencion-primaria-del-sns,
+        ns2:e05070101-catalogo-de-la-biblioteca-central-del-ministerio-de-sanidad-servicios-sociales-e-igualdad,
+        ns2:e05070101-catalogo-de-publicaciones-del-ministerio-de-sanidad-consumo-bienestar-social,
+        ns2:e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales,
+        ns2:e05070101-consejo-interterritorial-del-sistema-nacional-de-salud-ordenes-del-dia,
+        ns2:e05070101-de-vacunacion-covid-19-en-espana,
+        ns2:e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19,
+        ns2:e05070101-farmacia-nomenclator-de-facturacion,
+        ns2:e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas,
+        ns2:e05070101-informativas,
+        ns2:e05070101-informe-anual-del-sistema-nacional-de-salud .
+
+ns37:record foaf:primaryTopic ns2:e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns .
+
+ns42:record foaf:primaryTopic ns2:e05070101-banco-de-datos-del-ministerio-de-sanidad-servicios-sociales-e-igualdad .
+
+ns43:record foaf:primaryTopic ns2:e05070101-catalogo-de-centros-de-atencion-primaria-del-sns .
+
+ns44:record foaf:primaryTopic ns2:e05070101-catalogo-de-la-biblioteca-central-del-ministerio-de-sanidad-servicios-sociales-e-igualdad .
+
+ns45:record foaf:primaryTopic ns2:e05070101-catalogo-de-publicaciones-del-ministerio-de-sanidad-consumo-bienestar-social .
+
+ns46:record foaf:primaryTopic ns2:e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales .
+
+ns47:record foaf:primaryTopic ns2:e05070101-consejo-interterritorial-del-sistema-nacional-de-salud-ordenes-del-dia .
+
+ns48:record foaf:primaryTopic ns2:e05070101-de-vacunacion-covid-19-en-espana .
+
+ns49:record foaf:primaryTopic ns2:e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19 .
+
+ns50:record foaf:primaryTopic ns2:e05070101-farmacia-nomenclator-de-facturacion .
+
+ns51:record foaf:primaryTopic ns2:e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas .
+
+ns52:record foaf:primaryTopic ns2:e05070101-informativas .
+
+ns53:record foaf:primaryTopic ns2:e05070101-informe-anual-del-sistema-nacional-de-salud .
+
+ns7:5387c3c7-feb8-4511-a15b-220e718286a1 a ns0:Distribution ;
+    dcterms:format ns5:format ;
+    dcterms:license <http://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    ns0:accessURL <http://www.mscbs.gob.es/organizacion/consejoInterterritorial.do> .
+
+ns5:format a dcterms:IMT ;
+    rdfs:label "HTML" ;
+    rdf:value "text/html" .
+
+ns7:914ee207-6c81-48a5-848e-e8db6acd284a a ns0:Distribution ;
+    dcterms:format ns6:format ;
+    dcterms:license <http://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    ns0:accessURL <http://www.mscbs.gob.es/organizacion/consejoInterterritorial.do> .
+
+ns6:format a dcterms:IMT ;
+    rdfs:label "HTML" ;
+    rdf:value "text/html" .
+
+ns7:f096fa7b-3a6f-4597-a81f-b99c7dd96d23 a ns0:Distribution ;
+    dcterms:format ns8:format ;
+    dcterms:license <http://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    ns0:accessURL <http://www.adobe.com/prodindex/acrobat/readstep.html> .
+
+ns8:format a dcterms:IMT ;
+    rdfs:label "PDF" ;
+    rdf:value "application/pdf" .
+
+ns9:dfa3dc97-745a-4612-9c8f-80e214e7462e a ns0:Distribution ;
+    dcterms:format ns10:format ;
+    dcterms:license <http://www.sanidad.gob.es/avisoLegal/home.htm> ;
+    ns0:accessURL <http://www.mscbs.gob.es/estadEstudios/estadisticas/bancoDatos.htm> .
+
+ns10:format a dcterms:IMT ;
+    rdfs:label "XHTML" ;
+    rdf:value "application/xhtml+xml" .
+
+<https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/294edf89-a0d6-495e-be45-353385da6052> a ns0:Distribution ;
+    dcterms:format ns12:format ;
+    dcterms:identifier "http://www.mscbs.gob.es/ciudadanos/prestaciones/centrosServiciosSNS/hospitales/CAPSNSAnosAnteriores.csv"^^xsd:anyURI ;
+    dcterms:license <https://sede.mscbs.gob.es/datosabiertos/condiciones.htm> ;
+    dcterms:relation <http://www.mscbs.gob.es/ciudadanos/prestaciones/centrosServiciosSNS/hospitales/aniosAnterioresCentros.htm> ;
+    dcterms:title "Catálogo de Centros de Atención Primaria del SNS y de Atención Urgente Extrahospitalaria"@es ;
+    ns0:accessURL <https://www.sanidad.gob.es/estadEstudios/estadisticas/sisInfSanSNS/ofertaRecursos/centrosSalud/home.htm> .
+
+ns12:format a dcterms:IMT ;
+    rdfs:label "MDB" ;
+    rdf:value "application/msaccess" .
+
+<https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/4b0e9536-dcc4-4005-b718-49414dc4fccc> a ns0:Distribution ;
+    dcterms:format ns13:format ;
+    dcterms:license <https://sede.mscbs.gob.es/datosabiertos/condiciones.htm> ;
+    dcterms:relation <https://www.sanidad.gob.es/estadEstudios/estadisticas/sisInfSanSNS/ofertaRecursos/centrosSalud/home.htm> ;
+    dcterms:title "Catálogo de Centros de Atención Primaria del SNS"@es ;
+    ns0:accessURL <https://www.sanidad.gob.es/ciudadanos/centros.do> .
+
+ns13:format a dcterms:IMT ;
+    rdfs:label "CSV" ;
+    rdf:value "text/csv" .
+
+ns14:eed148e8-52fb-4cc6-9686-823410986227 a ns0:Distribution ;
+    dcterms:format ns15:format ;
+    dcterms:license <http://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    ns0:accessURL <http://www.mscbs.gob.es/biblioPublic/biblioDocum/biblioCentral/libros.htm> .
+
+ns15:format a dcterms:IMT ;
+    rdfs:label "XHTML" ;
+    rdf:value "application/xhtml+xml" .
+
+ns16:ac2349c5-f42d-40b1-a29f-a5790864ad3f a ns0:Distribution ;
+    dcterms:format ns17:format ;
+    dcterms:license <http://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    ns0:accessURL <http://www.mscbs.gob.es/biblioPublic/publicaciones.do> .
+
+ns17:format a dcterms:IMT ;
+    rdfs:label "HTML" ;
+    rdf:value "text/html" .
+
+<https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/3fd59a76-276d-44a4-8ef2-deabbfc64be0> a ns0:Distribution ;
+    dcterms:format ns18:format ;
+    dcterms:license <https://sede.mscbs.gob.es/datosabiertos/condiciones.htm> ;
+    dcterms:relation <http://www.mscbs.gob.es/ciudadanos/prestaciones/centrosServiciosSNS/hospitales/home.htm> ;
+    dcterms:title "Consulta Catálogo Centros"@es ;
+    ns0:accessURL <http://www.mscbs.gob.es/ciudadanos/centros.do> .
+
+ns18:format a dcterms:IMT ;
+    rdfs:label "CSV" ;
+    rdf:value "text/csv" .
+
+<https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/4e37b416-a570-4138-adef-c3a56dd5421a> a ns0:Distribution ;
+    dcterms:format ns19:format ;
+    dcterms:license <https://sede.mscbs.gob.es/datosabiertos/condiciones.htm> ;
+    dcterms:title "Catálogo Nacional de Hospitales"@es ;
+    ns0:accessURL <http://www.mscbs.gob.es/ciudadanos/prestaciones/centrosServiciosSNS/hospitales/home.htm> .
+
+ns19:format a dcterms:IMT ;
+    rdfs:label "PDF" ;
+    rdf:value "application/pdf" .
+
+ns20:e67566a0-67d4-4ce7-b084-77e1fac2829c a ns0:Distribution ;
+    dcterms:format ns21:format ;
+    dcterms:license <https://sede.mscbs.gob.es/datosabiertos/condiciones.htm> ;
+    ns0:accessURL <http://www.mscbs.gob.es/organizacion/consejoInterterri/ordenes.htm> .
+
+ns21:format a dcterms:IMT ;
+    rdfs:label "XHTML" ;
+    rdf:value "application/xhtml+xml" .
+
+ns22:fc86ba02-05ce-4dc3-9f25-ccdd3a306747 a ns0:Distribution ;
+    dcterms:format ns23:format ;
+    dcterms:license <https://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    dcterms:title "Datos de vacunación COVID-19"@es ;
+    ns0:accessURL <https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm> .
+
+ns23:format a dcterms:IMT ;
+    rdfs:label "HTML" ;
+    rdf:value "text/html" .
+
+ns28:0a1008c4-d88b-4cb4-82b4-f0fae96ed44b a ns0:Distribution ;
+    dcterms:format ns24:format ;
+    dcterms:license <https://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    dcterms:title "Situación y evolución de la pandemia de COVID-19 en España"@es ;
+    ns0:accessURL <https://cnecovid.isciii.es/covid19/> .
+
+ns24:format a dcterms:IMT ;
+    rdfs:label "HTML" ;
+    rdf:value "text/html" .
+
+ns28:130e7f28-4acf-4260-aa25-ca94a66d97aa a ns0:Distribution ;
+    dcterms:format ns25:format ;
+    dcterms:license <https://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    dcterms:title "Estudio Nacional de sero-Epidemiología de la infección por SARS-CoV-2 en España ENE-Covid19"@es ;
+    ns0:accessURL <https://portalcne.isciii.es/enecovid19/> .
+
+ns25:format a dcterms:IMT ;
+    rdfs:label "HTML" ;
+    rdf:value "text/html" .
+
+ns28:3268aad0-5c84-4b47-8bb1-65be44971455 a ns0:Distribution ;
+    dcterms:format ns26:format ;
+    dcterms:license <https://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    dcterms:relation <https://cnecovid.isciii.es/covid19/#documentación-y-datos> ;
+    dcterms:title "Serie histórica de casos por Comunidad Autónoma"@es ;
+    ns0:accessURL <https://cnecovid.isciii.es/covid19/resources/casos_diagnostico_ccaa.csv> .
+
+ns26:format a dcterms:IMT ;
+    rdfs:label "CSV" ;
+    rdf:value "text/csv" .
+
+ns28:5893e476-84dc-4723-be00-ff455a4ebfed a ns0:Distribution ;
+    dcterms:format ns27:format ;
+    dcterms:license <https://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    dcterms:title "Informes COVID-19 del Centro Nacional de Epidemiología"@es ;
+    ns0:accessURL <https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Paginas/InformesCOVID-19.aspx> .
+
+ns27:format a dcterms:IMT ;
+    rdfs:label "PDF" ;
+    rdf:value "application/pdf" .
+
+ns28:daac0e06-2e78-49a6-a2b4-dfbdc0402ca1 a ns0:Distribution ;
+    dcterms:format ns29:format ;
+    dcterms:license <https://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    dcterms:relation <https://cnecovid.isciii.es/covid19/#documentación-y-datos> ;
+    dcterms:title "Serie histórica de casos por Provincia"@es ;
+    ns0:accessURL <https://cnecovid.isciii.es/covid19/resources/casos_diagnostico_provincia.csv> .
+
+ns29:format a dcterms:IMT ;
+    rdfs:label "CSV" ;
+    rdf:value "text/csv" .
+
+ns28:e4c99afe-3ab4-472d-b772-5e85c8924c7a a ns0:Distribution ;
+    dcterms:format ns30:format ;
+    dcterms:license <https://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    dcterms:title "Actualización diaria  por el Centro de Coordinación de Alertas y Emergencias Sanitarias"@es ;
+    ns0:accessURL <https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/situacionActual.htm> .
+
+ns30:format a dcterms:IMT ;
+    rdfs:label "PDF" ;
+    rdf:value "application/pdf" .
+
+<https://datos.gob.es/catalogo/e05070101-farmacia-nomenclator-de-facturacion/resource/6d88e46d-350b-419d-8e53-d58c48b00e1f> a ns0:Distribution ;
+    dcterms:format ns31:format ;
+    dcterms:license <https://sede.mscbs.gob.es/datosabiertos/condiciones.htm> ;
+    dcterms:relation <http://www.mscbs.gob.es/profesionales/nomenclator.do> ;
+    dcterms:title "FARMACIA. Nomenclátor de facturación"@es ;
+    ns0:accessURL <http://www.mscbs.gob.es/profesionales/nomenclator.do?metodo=buscarProductos&especialidad=%25%25%25&d-4015021-e=1&6578706f7274=1> .
+
+ns31:format a dcterms:IMT ;
+    rdfs:label "CSV" ;
+    rdf:value "text/csv" .
+
+ns33:570c8a23-1d49-4869-a9fd-ae99d63ebf5a a ns0:Distribution ;
+    dcterms:format ns32:format ;
+    dcterms:identifier "http://www.mscbs.gob.es/estadEstudios/estadisticas/estadisticas/Rebeca2017/REBECA_2017.pdf"^^xsd:anyURI ;
+    dcterms:license <http://www.mscbs.es/avisoLegal/home.htm> ;
+    ns0:accessURL <http://www.mscbs.gob.es/estadEstudios/estadisticas/estadisticas/REBECA_Areas_tematicas.htm> .
+
+ns32:format a dcterms:IMT ;
+    rdfs:label "XHTML" ;
+    rdf:value "application/xhtml+xml" .
+
+ns33:b6ff1940-da3d-4f49-8043-fc95db724e3a a ns0:Distribution ;
+    dcterms:format ns34:format ;
+    dcterms:license <http://www.mscbs.es/avisoLegal/home.htm> ;
+    ns0:accessURL <http://www.mscbs.gob.es/estadEstudios/estadisticas/estadisticas/infEstadisticasCCAA.htm> .
+
+ns34:format a dcterms:IMT ;
+    rdfs:label "XHTML" ;
+    rdf:value "application/xhtml+xml" .
+
+<https://datos.gob.es/catalogo/e05070101-informativas/resource/24ef1a2f-fd85-40fd-868d-e3aee4608e90> a ns0:Distribution ;
+    dcterms:format ns35:format ;
+    dcterms:license <https://sede.mscbs.gob.es/datosabiertos/condiciones.htm> ;
+    dcterms:relation <http://www.mscbs.gob.es/campannas/portada/home.htm> ;
+    dcterms:title "Campañas Informativas"@es ;
+    ns0:accessURL <http://www.mscbs.gob.es/campannas/portada/campanasInformativas.csv> ;
+    ns0:byteSize 634 .
+
+ns35:format a dcterms:IMT ;
+    rdfs:label "CSV" ;
+    rdf:value "text/csv" .
+
+<https://datos.gob.es/catalogo/e05070101-informe-anual-del-sistema-nacional-de-salud/resource/4876c0f8-ae98-4b82-a59b-2f4dcd76b2c7> a ns0:Distribution ;
+    dcterms:format ns36:format ;
+    dcterms:license <https://sede.mscbs.gob.es/datosabiertos/condiciones.htm> ;
+    dcterms:relation <http://www.mscbs.gob.es/estadEstudios/estadisticas/sisInfSanSNS/tablasEstadisticas/InfAnSNS.htm> ;
+    ns0:accessURL <http://www.mscbs.gob.es/estadEstudios/estadisticas/sisInfSanSNS/tablasEstadisticas/informeAnualSNS.csv> .
+
+ns36:format a dcterms:IMT ;
+    rdfs:label "CSV" ;
+    rdf:value "text/csv" .
+
+ns2:e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns a ns0:Dataset ;
+    dcterms:description "Permite el acceso de los acuerdos adoptados por el Organismo. Se puede realizar la búsqueda por tema, fecha, acta y año (desde 1987)."@es ;
+    dcterms:issued "2011-10-24T00:00:00+02:00"^^xsd:dateTime ;
+    dcterms:language ns39:SPA ;
+    dcterms:modified "2025-02-20T00:00:00+01:00"^^xsd:dateTime ;
+    dcterms:publisher ns40:E05070101 ;
+    dcterms:references <https://www.sanidad.gob.es/organizacion/consejoInterterri/home.htm> ;
+    dcterms:temporal ns37:PeriodOfTime-1 ;
+    dcterms:title "Acuerdos adoptados en Pleno del Sistema Nacional de Salud (SNS)"@es ;
+    ns0:distribution ns7:5387c3c7-feb8-4511-a15b-220e718286a1,
+        ns7:914ee207-6c81-48a5-848e-e8db6acd284a,
+        ns7:f096fa7b-3a6f-4597-a81f-b99c7dd96d23 ;
+    ns0:keyword "Informes."@es ;
+    ns0:theme ns38:salud .
+
+ns2:e05070101-banco-de-datos-del-ministerio-de-sanidad-servicios-sociales-e-igualdad a ns0:Dataset ;
+    dcterms:description "El Banco de Datos del Ministerio ofrece información sobre el Barómetro Sanitario, Catálogo de Centros de Atención Primaria del SNS, Catálogo Nacional de Hospitales, Encuesta Nacional de Salud de España, Estadística de Establecimientos Sanitarios con Régimen de Internado y el Índice Nacional de Defunciones."@es ;
+    dcterms:identifier "http://www.mscbs.gob.es/estadEstudios/estadisticas/bancoDatos.htm" ;
+    dcterms:issued "2011-10-24T00:00:00+02:00"^^xsd:dateTime ;
+    dcterms:language ns39:SPA ;
+    dcterms:modified "2018-01-30T00:00:00+01:00"^^xsd:dateTime ;
+    dcterms:publisher ns40:E05070101 ;
+    dcterms:temporal ns42:PeriodOfTime-1 ;
+    dcterms:title "Banco de datos del Ministerio de Sanidad, Consumo y Bienestar Social"@es ;
+    ns0:distribution ns9:dfa3dc97-745a-4612-9c8f-80e214e7462e ;
+    ns0:keyword "Catálogos."@es,
+        "Datos estadísticos"@es ;
+    ns0:theme ns38:salud .
+
+ns2:e05070101-catalogo-de-centros-de-atencion-primaria-del-sns a ns0:Dataset ;
+    dcterms:accrualPeriodicity ns43:Frequency ;
+    dcterms:conformsTo <http://www.sanidad.gob.es/avisoLegal/home.htm> ;
+    dcterms:description "Se pueden realizar las búsquedas de los centros y servicios de Atención Primaria del Sistema Nacional de Salud (SNS),  bien por comunidad autónoma a través de un mapa interactivo, o bien por una búsqueda avanzada por medio de un desplegable seleccionando la comunidad autónoma y provincia."@es ;
+    dcterms:issued "2014-01-01T00:00:00+01:00"^^xsd:dateTime ;
+    dcterms:language ns39:CAT,
+        ns39:SPA ;
+    dcterms:modified "2025-02-20T00:00:00+01:00"^^xsd:dateTime ;
+    dcterms:publisher ns40:E05070101 ;
+    dcterms:references <http://www.sanidad.gob.es/ciudadanos/centros.do> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:temporal ns43:PeriodOfTime-1 ;
+    dcterms:title "Centros y Servicios del SNS.Catálogo de Centros de Atención Primaria del SNS"@es ;
+    ns0:distribution <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/294edf89-a0d6-495e-be45-353385da6052>,
+        <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/4b0e9536-dcc4-4005-b718-49414dc4fccc> ;
+    ns0:keyword "Centros sanitarios"@es,
+        "Centros y directorios."@es ;
+    ns0:theme ns38:salud .
+
+ns2:e05070101-catalogo-de-la-biblioteca-central-del-ministerio-de-sanidad-servicios-sociales-e-igualdad a ns0:Dataset ;
+    dcterms:description "Catálogo general que permite la búsqueda por autor, título, editorial, año y lugar de publicación y colección."@es ;
+    dcterms:issued "2011-10-24T00:00:00+02:00"^^xsd:dateTime ;
+    dcterms:language ns39:SPA ;
+    dcterms:modified "2025-02-20T00:00:00+01:00"^^xsd:dateTime ;
+    dcterms:publisher ns40:E05070101 ;
+    dcterms:temporal ns44:PeriodOfTime-1 ;
+    dcterms:title "Catálogo de la Biblioteca Central del Ministerio de Sanidad"@es ;
+    ns0:distribution ns14:eed148e8-52fb-4cc6-9686-823410986227 ;
+    ns0:keyword "Bibliotecas"@es,
+        "Catálogos."@es ;
+    ns0:theme ns38:salud .
+
+ns2:e05070101-catalogo-de-publicaciones-del-ministerio-de-sanidad-consumo-bienestar-social a ns0:Dataset ;
+    dcterms:description "Se puede realizar la búsqueda por tema, título, año de publicación y unidad editora."@es ;
+    dcterms:identifier "http://www.mscbs.gob.es/biblioPublic/publicaciones.do" ;
+    dcterms:issued "2011-10-24T00:00:00+02:00"^^xsd:dateTime ;
+    dcterms:language ns39:SPA ;
+    dcterms:modified "2025-02-20T00:00:00+01:00"^^xsd:dateTime ;
+    dcterms:publisher ns40:E05070101 ;
+    dcterms:references <http://www.mscbs.gob.es/biblioPublic/publicaciones.do> ;
+    dcterms:temporal ns45:PeriodOfTime-1 ;
+    dcterms:title "Catálogo de publicaciones del Ministerio de Sanidad"@es ;
+    ns0:distribution ns16:ac2349c5-f42d-40b1-a29f-a5790864ad3f ;
+    ns0:keyword "Catálogos"@es,
+        "Sociedad y bienestar"@es ;
+    ns0:theme ns38:salud .
+
+ns2:e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales a ns0:Dataset ;
+    dcterms:accrualPeriodicity ns46:Frequency ;
+    dcterms:conformsTo <http://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    dcterms:description "Se pueden realizar las búsquedas de los centros y servicios de Hospitales del Sistema Nacional de Salud (SNS), bien por comunidad autónoma a través de un mapa interactivo, o bien por una búsqueda avanzada por medio de un desplegable seleccionando la comunidad autónoma y provincia."@es ;
+    dcterms:issued "2014-02-01T00:00:00+01:00"^^xsd:dateTime ;
+    dcterms:language ns39:SPA ;
+    dcterms:modified "2025-02-20T00:00:00+01:00"^^xsd:dateTime ;
+    dcterms:publisher ns40:E05070101 ;
+    dcterms:references <https://www.sanidad.gob.es/ciudadanos/centros.do>,
+        <https://www.sanidad.gob.es/estadEstudios/estadisticas/sisInfSanSNS/ofertaRecursos/hospitales/home.htm> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:temporal ns46:PeriodOfTime-1 ;
+    dcterms:title "Centros y Servicios del SNS. Catálogo Nacional de Hospitales"@es ;
+    dcterms:valid "2018-01-01T00:00:00+01:00"^^xsd:dateTime ;
+    ns0:distribution <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/3fd59a76-276d-44a4-8ef2-deabbfc64be0>,
+        <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/4e37b416-a570-4138-adef-c3a56dd5421a> ;
+    ns0:keyword "Censos y directorios."@es,
+        "Centros sanitarios"@es ;
+    ns0:theme ns38:salud .
+
+ns2:e05070101-consejo-interterritorial-del-sistema-nacional-de-salud-ordenes-del-dia a ns0:Dataset ;
+    dcterms:conformsTo <https://sede.mscbs.gob.es/datosabiertos/normativa.htm> ;
+    dcterms:description """El Consejo Interterritorial del Sistema Nacional de Salud se constituye en abril de 1987, y está compuesto por la Ministra de Sanidad y por los Consejeros competentes en materia de sanidad de las Comunidades Autónomas y Ciudades con Estatuto de Autonomía.
+El CISNS funciona en Pleno, en Comisión Delegada, Comisiones técnicas y Grupos de Trabajo, conocerá, debatirá y, en su caso, emitirá recomendaciones en relación con: funciones esenciales en la configuración del Sistema Nacional de Salud; de asesoramiento, planificación y evaluación y de coordinación del Sistema."""@es ;
+    dcterms:issued "2011-10-24T00:00:00+02:00"^^xsd:dateTime ;
+    dcterms:language ns39:SPA ;
+    dcterms:modified "2025-02-20T00:00:00+01:00"^^xsd:dateTime ;
+    dcterms:publisher ns40:E05070101 ;
+    dcterms:references <http://www.mscbs.gob.es/avisoLegal/home.htm> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:temporal ns47:PeriodOfTime-1 ;
+    dcterms:title "Consejo Interterritorial del Sistema Nacional de Salud. Órdenes del día"@es ;
+    ns0:distribution ns20:e67566a0-67d4-4ce7-b084-77e1fac2829c ;
+    ns0:keyword "Ordenes del día"@es ;
+    ns0:theme ns38:salud .
+
+ns2:e05070101-de-vacunacion-covid-19-en-espana a ns0:Dataset ;
+    dcterms:accrualPeriodicity ns48:Frequency ;
+    dcterms:description """El conjunto de datos contiene la siguiente información.  Primera pestaña “Comunicación”: para cada Comunidad Autónoma, Ciudades Autónomas y Ministerio de Defensa –en filas-, las dosis entregadas de Pfizer, de Moderna, de Astrazeneca, las dosis totales entregadas, las dosis totales administradas, el % que suponen las dosis administradas sobre las entregadas, el número de personas con la pauta completada y la fecha más reciente de vacunación registrada, en columnas. Segunda pestaña “Institucionalizados”: para cada Comunidad Autónoma y Ciudades Autónomas –en filas-, el número de personas institucionalizadas, el número de personas institucionalizadas que han recibido al menos una dosis, el número de personas institucionalizadas que han recibido la pauta completa, el % de la población institucionalizada que ha recibido al menos una dosis y el  % de la población institucionalizada que ha recibido la pauta completa, en columnas.  Tercera pestaña, “Etarios_con_al_menos_1_dosis”: para cada Comunidad Autónoma, Ciudades Autónomas y Ministerio de Defensa –en filas-, las personas en las franjas de edad ≥80 años, 70-79 años, 60-69 años, 50-59 años, 25-49 años, 18-24 años, 16-17 años, junto con el número de personas en esa franja que ha recibido al menos una dosis y qué porcentaje suponen en cada franja, así como el número total de personas de más de 16 años, cuántas han recibido al menos una dosis y qué porcentaje suponen en la población de más de 16 años, en columnas. Cuarta pestaña “Etarios_con_pauta_completa”: para cada Comunidad Autónoma, Ciudades Autónomas y Ministerio de Defensa –en filas-, las personas en las franjas de edad ≥80 años, 70-79 años, 60-69 años, 50-59 años, 25-49 años, 18-24 años, 16-17 años, junto con el número de personas en esa franja que ha recibido la pauta completa de vacunación y qué porcentaje suponen en cada franja, así como el número total de personas de más de 16 años, cuántas han la pauta de vacunación completa y qué porcentaje suponen en la población de más de 16 años, en columnas.
+ 
+En todas las pestañas, los datos de dosis y personas que han recibido dosis son acumulativos.
+"""@es ;
+    dcterms:issued "2021-03-25T00:00:00+01:00"^^xsd:dateTime ;
+    dcterms:language ns39:SPA ;
+    dcterms:publisher ns40:E05070101 ;
+    dcterms:references <https://covid19.gob.es/>,
+        <https://www.mscbs.gob.es/profesionales/cargarNotas.do>,
+        <https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/ciudadania.htm>,
+        <https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos.htm>,
+        <https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/pbiVacunacion.htm> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "Estrategia de vacunación por el coronavirus (COVID-19)"@es ;
+    ns0:distribution ns22:fc86ba02-05ce-4dc3-9f25-ccdd3a306747 ;
+    ns0:keyword "covid-19"@es,
+        "vacunas"@es ;
+    ns0:theme ns38:salud .
+
+ns2:e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19 a ns0:Dataset ;
+    dcterms:accrualPeriodicity ns49:Frequency ;
+    dcterms:description """Este conjunto de datos ofrece datos sobre el brote de la enfermedad por un nuevo tipo de virus de la familia Coronaviridae,  denominado como SARS-CoV-2. La enfermedad causada por este nuevo virus se ha denominado por consenso internacional COVID-19.  
+
+Los datos aquí recogidos provienen de los reportados por los servicios de salud de las Comunidades Autónomas.  
+
+Se está trabajando para mejorar los datos  ofrecidos a medida que sea posible."""@es ;
+    dcterms:language ns39:SPA ;
+    dcterms:publisher ns40:E05070101 ;
+    dcterms:references <https://covid19.gob.es/>,
+        <https://www.mscbs.gob.es/profesionales/cargarNotas.do>,
+        <https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/ciudadania.htm>,
+        <https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/documentos.htm> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title " Evolución de enfermedad por el coronavirus (COVID-19)"@es ;
+    ns0:distribution ns28:0a1008c4-d88b-4cb4-82b4-f0fae96ed44b,
+        ns28:130e7f28-4acf-4260-aa25-ca94a66d97aa,
+        ns28:3268aad0-5c84-4b47-8bb1-65be44971455,
+        ns28:5893e476-84dc-4723-be00-ff455a4ebfed,
+        ns28:daac0e06-2e78-49a6-a2b4-dfbdc0402ca1,
+        ns28:e4c99afe-3ab4-472d-b772-5e85c8924c7a ;
+    ns0:keyword "COVID-19"@es ;
+    ns0:theme ns38:salud .
+
+ns2:e05070101-farmacia-nomenclator-de-facturacion a ns0:Dataset ;
+    dcterms:conformsTo <http://www.sanidad.gob.es/avisoLegal/home.htm> ;
+    dcterms:description "Información sobre los productos incluidos en la prestación farmacéutica del SNS (dispensables a través de oficinas de farmacia)"@es ;
+    dcterms:issued "2014-06-11T00:00:00+02:00"^^xsd:dateTime ;
+    dcterms:language ns39:SPA ;
+    dcterms:modified "2019-03-01T00:00:00+01:00"^^xsd:dateTime ;
+    dcterms:publisher ns40:E05070101 ;
+    dcterms:references <http://www.sanidad.gob.es/profesionales/nomenclator.do> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:title "FARMACIA. Nomenclátor de facturación"@es ;
+    ns0:distribution <https://datos.gob.es/catalogo/e05070101-farmacia-nomenclator-de-facturacion/resource/6d88e46d-350b-419d-8e53-d58c48b00e1f> ;
+    ns0:keyword "Productos prestación farmacéutica del SNS"@es ;
+    ns0:theme ns38:salud .
+
+ns2:e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas a ns0:Dataset ;
+    dcterms:description "Esta base de datos pertenece al proyecto REBECA (Repertorio Básico de Estadísticas y Sistemas de Información Sanitaria de las Comunidades Autónomas). Es neceario descargar la base de datos (en Access). Ofrece la posibilidad de búsquedas territoriales, temáticas, por organismos y  búsquedas avanzadas por texto libre. La descarga incluye manual de uso de la base de datos."@es ;
+    dcterms:identifier "http://www.sanidad.gob.es/estadEstudios/estadisticas/estadisticas/infEstadisticasCCAA.htm" ;
+    dcterms:issued "2011-10-24T00:00:00+02:00"^^xsd:dateTime ;
+    dcterms:language ns39:SPA ;
+    dcterms:modified "2017-06-30T00:00:00+02:00"^^xsd:dateTime ;
+    dcterms:publisher ns40:E05070101 ;
+    dcterms:references <http://www.sanidad.gob.es/estadEstudios/estadisticas/estadisticas/infEstadisticasCCAA.htm> ;
+    dcterms:temporal ns51:PeriodOfTime-1 ;
+    dcterms:title "Información y estadísticas sanitarias de las Comunidades Autónomas"@es ;
+    ns0:distribution ns33:570c8a23-1d49-4869-a9fd-ae99d63ebf5a,
+        ns33:b6ff1940-da3d-4f49-8043-fc95db724e3a ;
+    ns0:keyword "Datos estadísticos."@es ;
+    ns0:theme ns38:salud .
+
+ns2:e05070101-informativas a ns0:Dataset ;
+    dcterms:accrualPeriodicity ns52:Frequency ;
+    dcterms:conformsTo <https://www.sanidad.gob.es/avisoLegal/home.htm> ;
+    dcterms:description """LEY 29/2005, de 29 de diciembre, de Publicidad y Comunicación Institucional.
+
+Mensajes dirigidos a los ciudadanos que se engloban bajo la denominación genérica de campañas institucionales de publicidad y de comunicación.
+Listado de las Campañas informativas realizadas en el periodo 2005-2024, año, título, objetivo y público al que se dirige."""@es ;
+    dcterms:issued "2014-02-01T00:00:00+01:00"^^xsd:dateTime ;
+    dcterms:language ns39:SPA ;
+    dcterms:modified "2025-02-12T00:00:00+01:00"^^xsd:dateTime ;
+    dcterms:publisher ns40:E05070101 ;
+    dcterms:references <https://www.sanidad.gob.es/campannas/portada/home.htm> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:temporal ns52:PeriodOfTime-1 ;
+    dcterms:title "Campañas Informativas"@es ;
+    ns0:distribution <https://datos.gob.es/catalogo/e05070101-informativas/resource/24ef1a2f-fd85-40fd-868d-e3aee4608e90> ;
+    ns0:keyword "Campañas informativas"@es ;
+    ns0:theme ns38:salud .
+
+ns2:e05070101-informe-anual-del-sistema-nacional-de-salud a ns0:Dataset ;
+    dcterms:accrualPeriodicity ns53:Frequency ;
+    dcterms:conformsTo <https://sede.mscbs.gob.es/datosabiertos/normativa.htm> ;
+    dcterms:description """El Ministerio de Sanidad, Servicios Sociales e Igualdad elabora anualmente un informe sobre el estado del Sistema Nacional de Salud que presenta al Consejo Interterritorial del Sistema Nacional de Salud.
+El informe proporciona un análisis permanente del Sistema Nacional de Salud en su conjunto, mediante estudios comparados de los servicios de salud de las comunidades autónomas en el ámbito de la organización, provisión de los servicios, gestión sanitaria y resultados."""@es ;
+    dcterms:issued "2014-06-11T00:00:00+02:00"^^xsd:dateTime ;
+    dcterms:language ns39:SPA ;
+    dcterms:modified "2014-06-11T00:00:00+02:00"^^xsd:dateTime ;
+    dcterms:publisher ns40:E05070101 ;
+    dcterms:references <http://www.sanidad.gob.es/avisoLegal/home.htm> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España> ;
+    dcterms:temporal ns53:PeriodOfTime-1 ;
+    dcterms:title "Informe anual del Sistema Nacional de Salud"@es ;
+    ns0:distribution <https://datos.gob.es/catalogo/e05070101-informe-anual-del-sistema-nacional-de-salud/resource/4876c0f8-ae98-4b82-a59b-2f4dcd76b2c7> ;
+    ns0:keyword "Informe anual SNS"@es ;
+    ns0:theme ns38:salud .
+

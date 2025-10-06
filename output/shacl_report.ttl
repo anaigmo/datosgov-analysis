@@ -1,0 +1,521 @@
+@prefix : <http://example.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-informativas/resource/24ef1a2f-fd85-40fd-868d-e3aee4608e90> ;
+            sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-informativas/resource/24ef1a2f-fd85-40fd-868d-e3aee4608e90>->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/0a1008c4-d88b-4cb4-82b4-f0fae96ed44b> ;
+                    sh:resultMessage "Less than 1 values on ns28:0a1008c4-d88b-4cb4-82b4-f0fae96ed44b->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/0a1008c4-d88b-4cb4-82b4-f0fae96ed44b> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/e4c99afe-3ab4-472d-b772-5e85c8924c7a> ;
+                    sh:resultMessage "Less than 1 values on ns28:e4c99afe-3ab4-472d-b772-5e85c8924c7a->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/e4c99afe-3ab4-472d-b772-5e85c8924c7a> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/resource/5387c3c7-feb8-4511-a15b-220e718286a1> ;
+            sh:resultMessage "Less than 1 values on ns7:5387c3c7-feb8-4511-a15b-220e718286a1->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/5893e476-84dc-4723-be00-ff455a4ebfed> ;
+                    sh:resultMessage "Less than 1 values on ns28:5893e476-84dc-4723-be00-ff455a4ebfed->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/5893e476-84dc-4723-be00-ff455a4ebfed> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-catalogo-de-publicaciones-del-ministerio-de-sanidad-consumo-bienestar-social/resource/ac2349c5-f42d-40b1-a29f-a5790864ad3f> ;
+                    sh:resultMessage "Less than 1 values on ns16:ac2349c5-f42d-40b1-a29f-a5790864ad3f->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-catalogo-de-publicaciones-del-ministerio-de-sanidad-consumo-bienestar-social> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-catalogo-de-publicaciones-del-ministerio-de-sanidad-consumo-bienestar-social/resource/ac2349c5-f42d-40b1-a29f-a5790864ad3f> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-de-vacunacion-covid-19-en-espana/resource/fc86ba02-05ce-4dc3-9f25-ccdd3a306747> ;
+                    sh:resultMessage "Less than 1 values on ns22:fc86ba02-05ce-4dc3-9f25-ccdd3a306747->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-de-vacunacion-covid-19-en-espana> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-de-vacunacion-covid-19-en-espana/resource/fc86ba02-05ce-4dc3-9f25-ccdd3a306747> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/294edf89-a0d6-495e-be45-353385da6052> ;
+                    sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/294edf89-a0d6-495e-be45-353385da6052>->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/294edf89-a0d6-495e-be45-353385da6052> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/4e37b416-a570-4138-adef-c3a56dd5421a> ;
+                    sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/4e37b416-a570-4138-adef-c3a56dd5421a>->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/4e37b416-a570-4138-adef-c3a56dd5421a> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/4b0e9536-dcc4-4005-b718-49414dc4fccc> ;
+                    sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/4b0e9536-dcc4-4005-b718-49414dc4fccc>->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/4b0e9536-dcc4-4005-b718-49414dc4fccc> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/3fd59a76-276d-44a4-8ef2-deabbfc64be0> ;
+            sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/3fd59a76-276d-44a4-8ef2-deabbfc64be0>->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/4b0e9536-dcc4-4005-b718-49414dc4fccc> ;
+            sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/4b0e9536-dcc4-4005-b718-49414dc4fccc>->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/e4c99afe-3ab4-472d-b772-5e85c8924c7a> ;
+            sh:resultMessage "Less than 1 values on ns28:e4c99afe-3ab4-472d-b772-5e85c8924c7a->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-de-vacunacion-covid-19-en-espana/resource/fc86ba02-05ce-4dc3-9f25-ccdd3a306747> ;
+            sh:resultMessage "Less than 1 values on ns22:fc86ba02-05ce-4dc3-9f25-ccdd3a306747->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/daac0e06-2e78-49a6-a2b4-dfbdc0402ca1> ;
+                    sh:resultMessage "Less than 1 values on ns28:daac0e06-2e78-49a6-a2b4-dfbdc0402ca1->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/daac0e06-2e78-49a6-a2b4-dfbdc0402ca1> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/3268aad0-5c84-4b47-8bb1-65be44971455> ;
+                    sh:resultMessage "Less than 1 values on ns28:3268aad0-5c84-4b47-8bb1-65be44971455->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/3268aad0-5c84-4b47-8bb1-65be44971455> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-consejo-interterritorial-del-sistema-nacional-de-salud-ordenes-del-dia/resource/e67566a0-67d4-4ce7-b084-77e1fac2829c> ;
+                    sh:resultMessage "Less than 1 values on ns20:e67566a0-67d4-4ce7-b084-77e1fac2829c->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-consejo-interterritorial-del-sistema-nacional-de-salud-ordenes-del-dia> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-consejo-interterritorial-del-sistema-nacional-de-salud-ordenes-del-dia/resource/e67566a0-67d4-4ce7-b084-77e1fac2829c> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-informe-anual-del-sistema-nacional-de-salud/resource/4876c0f8-ae98-4b82-a59b-2f4dcd76b2c7> ;
+            sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-informe-anual-del-sistema-nacional-de-salud/resource/4876c0f8-ae98-4b82-a59b-2f4dcd76b2c7>->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/130e7f28-4acf-4260-aa25-ca94a66d97aa> ;
+                    sh:resultMessage "Less than 1 values on ns28:130e7f28-4acf-4260-aa25-ca94a66d97aa->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/130e7f28-4acf-4260-aa25-ca94a66d97aa> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas/resource/570c8a23-1d49-4869-a9fd-ae99d63ebf5a> ;
+            sh:resultMessage "Less than 1 values on ns33:570c8a23-1d49-4869-a9fd-ae99d63ebf5a->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-informativas/resource/24ef1a2f-fd85-40fd-868d-e3aee4608e90> ;
+                    sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-informativas/resource/24ef1a2f-fd85-40fd-868d-e3aee4608e90>->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-informativas> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-informativas/resource/24ef1a2f-fd85-40fd-868d-e3aee4608e90> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-catalogo-de-la-biblioteca-central-del-ministerio-de-sanidad-servicios-sociales-e-igualdad/resource/eed148e8-52fb-4cc6-9686-823410986227> ;
+            sh:resultMessage "Less than 1 values on ns14:eed148e8-52fb-4cc6-9686-823410986227->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/3268aad0-5c84-4b47-8bb1-65be44971455> ;
+            sh:resultMessage "Less than 1 values on ns28:3268aad0-5c84-4b47-8bb1-65be44971455->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/resource/f096fa7b-3a6f-4597-a81f-b99c7dd96d23> ;
+            sh:resultMessage "Less than 1 values on ns7:f096fa7b-3a6f-4597-a81f-b99c7dd96d23->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/resource/f096fa7b-3a6f-4597-a81f-b99c7dd96d23> ;
+                    sh:resultMessage "Less than 1 values on ns7:f096fa7b-3a6f-4597-a81f-b99c7dd96d23->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/resource/f096fa7b-3a6f-4597-a81f-b99c7dd96d23> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas/resource/b6ff1940-da3d-4f49-8043-fc95db724e3a> ;
+            sh:resultMessage "Less than 1 values on ns33:b6ff1940-da3d-4f49-8043-fc95db724e3a->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-farmacia-nomenclator-de-facturacion/resource/6d88e46d-350b-419d-8e53-d58c48b00e1f> ;
+            sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-farmacia-nomenclator-de-facturacion/resource/6d88e46d-350b-419d-8e53-d58c48b00e1f>->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas/resource/570c8a23-1d49-4869-a9fd-ae99d63ebf5a> ;
+                    sh:resultMessage "Less than 1 values on ns33:570c8a23-1d49-4869-a9fd-ae99d63ebf5a->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas/resource/570c8a23-1d49-4869-a9fd-ae99d63ebf5a> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/130e7f28-4acf-4260-aa25-ca94a66d97aa> ;
+            sh:resultMessage "Less than 1 values on ns28:130e7f28-4acf-4260-aa25-ca94a66d97aa->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/4e37b416-a570-4138-adef-c3a56dd5421a> ;
+            sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/4e37b416-a570-4138-adef-c3a56dd5421a>->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-banco-de-datos-del-ministerio-de-sanidad-servicios-sociales-e-igualdad/resource/dfa3dc97-745a-4612-9c8f-80e214e7462e> ;
+            sh:resultMessage "Less than 1 values on ns9:dfa3dc97-745a-4612-9c8f-80e214e7462e->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/294edf89-a0d6-495e-be45-353385da6052> ;
+            sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-catalogo-de-centros-de-atencion-primaria-del-sns/resource/294edf89-a0d6-495e-be45-353385da6052>->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-banco-de-datos-del-ministerio-de-sanidad-servicios-sociales-e-igualdad/resource/dfa3dc97-745a-4612-9c8f-80e214e7462e> ;
+                    sh:resultMessage "Less than 1 values on ns9:dfa3dc97-745a-4612-9c8f-80e214e7462e->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-banco-de-datos-del-ministerio-de-sanidad-servicios-sociales-e-igualdad> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-banco-de-datos-del-ministerio-de-sanidad-servicios-sociales-e-igualdad/resource/dfa3dc97-745a-4612-9c8f-80e214e7462e> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-catalogo-de-publicaciones-del-ministerio-de-sanidad-consumo-bienestar-social/resource/ac2349c5-f42d-40b1-a29f-a5790864ad3f> ;
+            sh:resultMessage "Less than 1 values on ns16:ac2349c5-f42d-40b1-a29f-a5790864ad3f->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas/resource/b6ff1940-da3d-4f49-8043-fc95db724e3a> ;
+                    sh:resultMessage "Less than 1 values on ns33:b6ff1940-da3d-4f49-8043-fc95db724e3a->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-informacion-y-estadisticas-sanitarias-de-las-comunidades-autonomas/resource/b6ff1940-da3d-4f49-8043-fc95db724e3a> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/5893e476-84dc-4723-be00-ff455a4ebfed> ;
+            sh:resultMessage "Less than 1 values on ns28:5893e476-84dc-4723-be00-ff455a4ebfed->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-catalogo-de-la-biblioteca-central-del-ministerio-de-sanidad-servicios-sociales-e-igualdad/resource/eed148e8-52fb-4cc6-9686-823410986227> ;
+                    sh:resultMessage "Less than 1 values on ns14:eed148e8-52fb-4cc6-9686-823410986227->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-catalogo-de-la-biblioteca-central-del-ministerio-de-sanidad-servicios-sociales-e-igualdad> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-catalogo-de-la-biblioteca-central-del-ministerio-de-sanidad-servicios-sociales-e-igualdad/resource/eed148e8-52fb-4cc6-9686-823410986227> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/0a1008c4-d88b-4cb4-82b4-f0fae96ed44b> ;
+            sh:resultMessage "Less than 1 values on ns28:0a1008c4-d88b-4cb4-82b4-f0fae96ed44b->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-farmacia-nomenclator-de-facturacion/resource/6d88e46d-350b-419d-8e53-d58c48b00e1f> ;
+                    sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-farmacia-nomenclator-de-facturacion/resource/6d88e46d-350b-419d-8e53-d58c48b00e1f>->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-farmacia-nomenclator-de-facturacion> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-farmacia-nomenclator-de-facturacion/resource/6d88e46d-350b-419d-8e53-d58c48b00e1f> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/resource/914ee207-6c81-48a5-848e-e8db6acd284a> ;
+            sh:resultMessage "Less than 1 values on ns7:914ee207-6c81-48a5-848e-e8db6acd284a->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19/resource/daac0e06-2e78-49a6-a2b4-dfbdc0402ca1> ;
+            sh:resultMessage "Less than 1 values on ns28:daac0e06-2e78-49a6-a2b4-dfbdc0402ca1->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/resource/914ee207-6c81-48a5-848e-e8db6acd284a> ;
+                    sh:resultMessage "Less than 1 values on ns7:914ee207-6c81-48a5-848e-e8db6acd284a->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/resource/914ee207-6c81-48a5-848e-e8db6acd284a> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/resource/5387c3c7-feb8-4511-a15b-220e718286a1> ;
+                    sh:resultMessage "Less than 1 values on ns7:5387c3c7-feb8-4511-a15b-220e718286a1->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-acuerdos-adoptados-en-pleno-del-sistema-nacional-de-salud-sns/resource/5387c3c7-feb8-4511-a15b-220e718286a1> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-informe-anual-del-sistema-nacional-de-salud/resource/4876c0f8-ae98-4b82-a59b-2f4dcd76b2c7> ;
+                    sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-informe-anual-del-sistema-nacional-de-salud/resource/4876c0f8-ae98-4b82-a59b-2f4dcd76b2c7>->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-informe-anual-del-sistema-nacional-de-salud> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-informe-anual-del-sistema-nacional-de-salud/resource/4876c0f8-ae98-4b82-a59b-2f4dcd76b2c7> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-consejo-interterritorial-del-sistema-nacional-de-salud-ordenes-del-dia/resource/e67566a0-67d4-4ce7-b084-77e1fac2829c> ;
+            sh:resultMessage "Less than 1 values on ns20:e67566a0-67d4-4ce7-b084-77e1fac2829c->dcat:mediaType" ;
+            sh:resultPath dcat:mediaType ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/3fd59a76-276d-44a4-8ef2-deabbfc64be0> ;
+                    sh:resultMessage "Less than 1 values on <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/3fd59a76-276d-44a4-8ef2-deabbfc64be0>->dcat:mediaType" ;
+                    sh:resultPath dcat:mediaType ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb5 ] ;
+            sh:focusNode <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales> ;
+            sh:resultMessage "Value does not conform to Shape :DistributionShape. See details for more information." ;
+            sh:resultPath dcat:distribution ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n88a3e264e80f4f35821db7161360eefeb3 ;
+            sh:value <https://datos.gob.es/catalogo/e05070101-centros-y-servicios-del-sns-catalogo-nacional-de-hospitales/resource/3fd59a76-276d-44a4-8ef2-deabbfc64be0> ] .
+
+_:n88a3e264e80f4f35821db7161360eefeb3 sh:minCount 1 ;
+    sh:node :DistributionShape ;
+    sh:path dcat:distribution .
+
+_:n88a3e264e80f4f35821db7161360eefeb5 sh:minCount 1 ;
+    sh:path dcat:mediaType .
+

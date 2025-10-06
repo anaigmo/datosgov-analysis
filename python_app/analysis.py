@@ -2,6 +2,7 @@ from rdflib import Graph, RDF, RDFS, DCAT, XSD, URIRef, Literal, Namespace
 import requests
 from pyshacl import validate
 from datetime import datetime
+import urllib3
 
 DQV = Namespace('http://www.w3.org/ns/dqv#')
 EX = Namespace('http://example.org/')
@@ -38,6 +39,8 @@ def retrieve_datasets():
     headers = {
         "Accept": "text/turtle"
     }
+    
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
     res = requests.get(url, params={"query": query}, verify=False, headers=headers)
     graph = Graph()

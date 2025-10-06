@@ -1,0 +1,42 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <http://example.org/> .
+
+:DatasetShape a sh:NodeShape ;
+   sh:targetClass dcat:Dataset ;
+   sh:property [
+       sh:path dcat:keyword ;
+       sh:minCount 1 ;
+   ] ;
+   sh:property [
+       sh:path dcat:theme ;
+       sh:minCount 1 ;
+   ] ;
+   sh:property [
+       sh:path dcat:distribution ;
+       sh:node :DistributionShape ;
+       sh:minCount 1 ;
+   ] .
+
+:DistributionShape a sh:NodeShape ;
+    sh:targetClass dcat:Distribution ;
+    sh:property [
+        sh:path dct:format ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path dcat:mediaType ;
+        sh:minCount 1 ;
+    ] ;
+   sh:property [
+       sh:path dcat:accessURL ;
+       sh:pattern "^https?://" ;
+   ] ;
+   sh:property [
+       sh:path dcat:downloadURL ;
+       sh:pattern "^https?://" ;
+   ] ;.
